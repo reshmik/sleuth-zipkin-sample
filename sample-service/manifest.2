@@ -1,0 +1,13 @@
+instances: 1
+memory: 128M
+env:
+    SPRING_PROFILES_DEFAULT: cloud
+    SPRING_APPLICATION_NAME: Service5
+    SERVICE1_URL : http://service3.vert.fe.gopivotal.com/data/
+    SERVICE2_URL : http://service4.vert.fe.gopivotal.com/data/
+applications:
+- name: service5
+  path: target/sample-service-0.0.1-SNAPSHOT.jar
+
+  services:
+  - rabbitmq-demo                                                                             

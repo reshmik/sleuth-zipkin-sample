@@ -1,0 +1,10 @@
+applications:
+- disk_quota: 1024M
+  domain: vert.fe.gopivotal.com
+  env:
+    redacted_message: '"[PRIVATE DATA HIDDEN]"'
+  host: testvinayroles
+  instances: 1
+  memory: 512M
+  name: testvinayroles
+  stack: cflinuxfs2

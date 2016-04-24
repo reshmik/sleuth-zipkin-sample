@@ -1,0 +1,7 @@
+[
+     {
+       "protocol": "tcp",
+       "destination": "10.244.1.18",
+       "ports": "3306"
+     }
+]
