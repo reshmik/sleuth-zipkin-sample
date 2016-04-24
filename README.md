@@ -20,4 +20,4 @@ Optional
 5) You can now deploy service2 and service3, using manifest.2 and manifest.3
 6) Once deployed, if you call /compose endpoint on service3, it should generate a dependency graph on zipkin.
 It should look something like this :
-![alt tag]()
+![alt tag](https://github.com/reshmik/sleuth-zipkin-sample/blob/master/Screen%20Shot%202016-04-24%20at%207.15.13%20PM.png)
